@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Actividad 1</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <h1>Actividad 1</h1>
+                <a href="http://datos.gob.ar/dataset/series-precios-recursos-forestales" target="_blank">Dataset seleccionado: Series de precios de recursos forestales</a>
+                <em>Subsecretaría de Desarrollo Foresto Industrial</em>
+                <br />
+                <br />
+                <p>Series de precios de recursos de origen forestal, desde el año 1996, clasificados por especie: rollizos con destino aserrado, debobinado, pasta celulósica, tableros. Estos se dividen también por provincia y por región.</p>
+                <p>Para el trabajo se simplificó el dataset para graficar únicamente los valores por año / por provincia, sin especificar la especie</p>
+                <br />
+                <p>
+                    Se eligió este dataset ya que representa datos desde una fuente gubernamental de mi país asociado a una temática interesante para mi, que es el desempeño de los recursos naturales. Este dataset forma parte de una
+                    serie de datos abiertos expuestos por el gobierno de Argentina
+                </p>
+                <br />
+                <br />
+                <div class="well">
+                    <h3>Series de precios de recursos forestales</h3>
+                    <h4>Evolución anual del precio de los recursos forestales por provincia en Argentina</h4>
+                    <iframe id="datawrapper-chart-E0sMB" src="//datawrapper.dwcdn.net/E0sMB/1/" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="600"></iframe>
+                    <script type="text/javascript">if ("undefined" == typeof window.datawrapper) window.datawrapper = {}; window.datawrapper["E0sMB"] = {}, window.datawrapper["E0sMB"].embedDeltas = { "100": 600, "200": 600, "300": 600, "400": 600, "500": 600, "700": 600, "800": 600, "900": 600, "1000": 600 }, window.datawrapper["E0sMB"].iframe = document.getElementById("datawrapper-chart-E0sMB"), window.datawrapper["E0sMB"].iframe.style.height = window.datawrapper["E0sMB"].embedDeltas[Math.min(1e3, Math.max(100 * Math.floor(window.datawrapper["E0sMB"].iframe.offsetWidth / 100), 100))] + "px", window.addEventListener("message", function (a) { if ("undefined" != typeof a.data["datawrapper-height"]) for (var b in a.data["datawrapper-height"]) if ("E0sMB" == b) window.datawrapper["E0sMB"].iframe.style.height = a.data["datawrapper-height"][b] + "px" });</script>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

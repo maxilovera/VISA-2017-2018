@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Herramientas de visualización - Actividad 1</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="text-center">Actividad 1!</h1>
+            </div>
+            <div class="col-xs-6">
+                <img src="grafico_v1.PNG" class="img-responsive" />
+            </div>
+            <div class="col-xs-6">
+                <h3>Modificación de gráfico</h3>
+                <p>
+                    Este gráfico fue propuesto por el profesor de la asignatura de Visualización de información
+                    en el cual se pueden observar diferentes problemas.
+                </p>
+                - No se puede comparar fácilmente las proporciones de cada año con respecto al siguiente.<br />
+                - No se puede comparar fácilmente las proporciones de cada mes en distintos años, ya que por ejemplo para 2011 y 2009 del mes de abril, es difícil determinar cuál es más grande.<br />
+                - Las comparaciones deben hacerse en el rango de las áreas o volúmenes de cada cinta, lo cual es más complejo que comparar líneas o niveles en una dimensión.<br />
+                - Para el año 2012 existen solamente 6 meses mientras que para los otros años existen datos para los 12 meses, esto trae como consecuencia que el gráfico muestre los datos de forma incorrecta.<br />
+                - La elección de colores para julio y agosto indica tonalidades muy similares lo que puede prestar a confusión.<br />
+                - Se hizo una selección de color donde los colores se repiten para distintos meses, lo cual también puede traer confusión.<br />
+            </div>
+            <div class="col-lg-12">
+                <hr />
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <p>A continuación se visualiza el gráfico desarrollado con la librería d3.js que mejora la visualización de datos propuesta.</p>
+                <br />
+                <br />
+            </div>
+            <div class="col-lg-12">
+                <svg xmlns="http://www.w3.org/2000/svg" id="grafico" width="100%" height="400"></svg> 
+            </div>
+        </div>
+        <div class="row">
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+
+    <script src="http://d3js.org/d3.v5.js" charset="utf-8"></script>
+    <script src="app.js"></script>
+</body>
+</html>
